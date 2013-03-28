@@ -4,7 +4,7 @@
                                Share Extensions build script  
                             ***********************************
     
-    Author: Will Abson
+    Author: Saurin Tailor
     
     Provides a set of targets for building extensions to Alfresco Share in ZIP, ACP and JAR archive 
     formats. Since Alfresco 3.3, JAR is the recommended package structure for all simple extensions.
@@ -46,7 +46,7 @@
     <property name="tomcat.url" value="http://localhost:8080" />
     <property name="webapp.manager.url" value="${tomcat.url}/manager" />
     <property name="webapp.manager.username" value="admin" />
-    <property name="webapp.manager.password" value="" />
+    <property name="webapp.manager.password" value="admin" />
 	
 	<!-- Additional property values. Generally should not be overridden -->
     <property name="config.dir" value="${basedir}/config" />

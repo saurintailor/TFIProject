@@ -1401,6 +1401,9 @@ div.theme-bg-color-8
 body.alfresco-guest
 {
    background: transparent url("./images/alfresco-logo-bg.jpg") no-repeat;
+   background-position: center;
+   background-color: #0A0A0A;
+   
 }
 
 .alfresco-guest .sticky-wrapper
